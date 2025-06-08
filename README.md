@@ -1,58 +1,37 @@
 # PiloteTortue
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+## 🐢 Introduction
 
-## Development server
+La Tortue T3 Jeulin est un robot éducatif développé en France au début des années 1980 (1981) dans le cadre du Plan Informatique pour tous. Elle repose sur le célèbre langage Logo, et permettait aux élèves de cycles 3 de programmer des déplacements et des tracés géométriques simples, directement en classe.
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+- Objectif pédagogique : initier à la pensée algorithmique et à la logique via des exercices concrets : avancer, tourner, dessiner, etc.
+- Technologie : châssis mobile équipé de moteurs pas à pas, contrôlé par carte perforée ou télécommande, une mini‑tortue motorisée autonome.
+- Contexte : conçue pour l’enseignement primaire, elle représentait une approche innovante de l’éducation numérique à une époque où l’ordinateur familial n’était pas encore omniprésent
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+Ce projet a pour ambition de redonner vie à un robot emblématique, en re-donnant à la Tortue T3 sa vocation pédagogique, mais cette fois avec les outils du XXIᵉ siècle.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+Il s'agit d'une web app qui reproduis virtuellement l'integralité des cartes initialement fournies avec le robot. Chaque carte représente une commande en LOGO. Elle se traduit par un caractère unique, envoyé en RS-232 à la télécommande, qui le transmet au mobile.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+# How to
 
-## Building
+Le projet utilise [Angular](https://github.com/angular/angular-cli) version 20.0.1.
+Vous devrez avoir installé [Node](https://nodejs.org) au préalable sur votre machine, version 20.11.1 minimum
 
-To build the project run:
+## Lancer le service
+
+À la racine, dans le dossier du projet:
 
 ```bash
-ng build
+npm run i
+npm run start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+L'app se lancera à l'adresse [http://localhost:4200/](http://localhost:4200/). 
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
 
