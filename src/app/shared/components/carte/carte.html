@@ -1,0 +1,9 @@
+<div 
+    class="carte" 
+    [style.background-color]="carte.color"
+    [class.disabled]="disabled"
+    (click)="onClick()"
+    [title]="carte.tooltip">
+    <div class="command">{{ carte.command }}</div>
+    <div class="dots">{{asciiCodeBinDisplay}}</div>
+</div>

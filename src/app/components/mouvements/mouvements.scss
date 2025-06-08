@@ -1,0 +1,22 @@
+.mouvements-container {
+    padding: 2rem;
+
+    h1 {
+        color: #d2bcaa; // Beige-brown color for mouvements
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #666;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+    }
+
+    .cartes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
