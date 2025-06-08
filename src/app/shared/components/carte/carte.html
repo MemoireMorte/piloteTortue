@@ -1,7 +1,7 @@
 <div 
     class="carte" 
     [style.background-color]="carte.color"
-    [class.disabled]="disabled"
+    [class.disabled]="disabled || unavailable"
     (click)="onClick()"
     [title]="carte.tooltip">
     <div class="command">{{ carte.command }}</div>
