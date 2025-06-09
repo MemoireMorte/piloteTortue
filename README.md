@@ -1,8 +1,8 @@
-# PiloteTortue
+# 🐢 PiloteTortue
 
-## 🐢 Introduction
+## Introduction
 
-La Tortue T3 Jeulin est un robot éducatif développé en France au début des années 1980 (1981) dans le cadre du Plan Informatique pour tous. Elle repose sur le célèbre langage Logo, et permettait aux élèves de cycles 3 de programmer des déplacements et des tracés géométriques simples, directement en classe.
+La Tortue T3 Jeulin est un robot éducatif développé en France au début des années 1980 (1981) dans le cadre du Plan Informatique Pour Tous. Elle repose sur le célèbre langage Logo, et permettait aux élèves de cycles 3 de programmer des déplacements et des tracés géométriques simples, directement en classe.
 
 
 - Objectif pédagogique : initier à la pensée algorithmique et à la logique via des exercices concrets : avancer, tourner, dessiner, etc.
@@ -10,7 +10,7 @@ La Tortue T3 Jeulin est un robot éducatif développé en France au début des a
 - Contexte : conçue pour l’enseignement primaire, elle représentait une approche innovante de l’éducation numérique à une époque où l’ordinateur familial n’était pas encore omniprésent
 
 
-Ce projet a pour ambition de redonner vie à un robot emblématique, en re-donnant à la Tortue T3 sa vocation pédagogique, mais cette fois avec les outils du XXIᵉ siècle.
+Ce projet vise à utiliser le mobile Tortue T3 avec son boitier de commande mais sans les cartes perforées (plus pratique dans un contexte d'évenement public comme une exposition).
 
 
 Il s'agit d'une web app qui reproduis virtuellement l'integralité des cartes initialement fournies avec le robot. Chaque carte représente une commande en LOGO. Elle se traduit par un caractère unique, envoyé en RS-232 à la télécommande, qui le transmet au mobile.
